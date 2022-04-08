@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* add */
+a {
+	text-decoration: none;
+	text-align: center;
+}
 /* Row */
 
 	.row {

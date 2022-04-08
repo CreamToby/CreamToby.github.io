@@ -6,11 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Heeyoung Son</title>
+		<title>Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://kit.fontawesome.com/78408a8b89.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
 
@@ -22,8 +23,8 @@
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
 						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="https://github.com/CreamToby" class="icon brands fa-github"><span>GitHub</span></a>
-						<a href="https://www.linkedin.com/in/heeyoung-son-0ba997231/" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+						<a href="https://github.com/CreamToby" class="icon brands fa-github" target="_blank"><span>GitHub</span></a>
+						<a href="https://www.linkedin.com/in/heeyoung-son-0ba997231/" class="icon brands fa-linkedin" target="_blank"><span>LinkedIn</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -32,7 +33,7 @@
 						<!-- Me -->
 							<article id="home" class="panel intro">
 								<header>
-									<h1>Heeyoung Son</h1>
+									<h1>Hi! I am Heeyoung Son</h1>
 									<p>Wep Developer</p>
 								</header>
 								<a href="#work" class="jumplink pic">
@@ -47,23 +48,20 @@
 									<h2>Work</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
-								</p>
+									Here are the things I learned and made.
 								<section>
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+											<a href="https://creamtoby.github.io/VideoBackgroundProject/" class="image fit" target="_blank"><img src="images/pic01.jpg" alt="">VideoBackgroundProject</a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+											<a href="https://creamtoby.github.io/LePainProject/" class="image fit" target="_blank"><img src="images/pic02.jpg" alt="">LePainProject</a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+											<a href="https://creamtoby.github.io/FullWebpageProject/" class="image fit" target="_blank"><img src="images/pic03.jpg" alt="">FullWebpageProject</a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+											<a href="https://creamtoby.github.io/SurveyForm/" class="image fit" target="_blank"><img src="images/pic04.jpg" alt="">SurveyForm</a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
@@ -98,25 +96,30 @@
 								<header>
 									<h2>Contact Me</h2>
 								</header>
-								<form action="#" method="post">
+								<form action="https://script.google.com/macros/s/AKfycbzWKRm-q3VR_v22m99r7jyc8iMeL_iub1b-ByoXLz5wusLMGf6c9oNKbLx7Cn1MuA-M/exec" class="gform" method="post" data-mail="hyson09@gmail.com">
 									<div>
 										<div class="row">
 											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
+												<input type="text" name="name" placeholder="Name" required/>
 											</div>
 											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
+												<input type="email" name="email" placeholder="Email" required/>
 											</div>
 											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
+												<input type="text" name="subject" placeholder="Subject" required/>
 											</div>
 											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
+												<textarea name="message" placeholder="Message" rows="6" required></textarea>
 											</div>
 											<div class="col-12">
 												<input type="submit" value="Send Message" />
 											</div>
 										</div>
+									</div>
+									<div style="display:none" class="thankyou_message">
+										<!-- You can customize the thankyou message by editing the code below -->
+										<h2><em>Thanks</em> for contacting me! I will get back to you soon!
+										</h2>
 									</div>
 								</form>
 							</article>
@@ -138,6 +141,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 	</body>
 </html>
